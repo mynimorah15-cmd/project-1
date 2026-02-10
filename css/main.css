@@ -5,8 +5,11 @@ head{
 body {
     font-family 'Times New Roman', Times, serif;
     font-size: 36px;
-
     font-family: GB Garamond, serif;
+
+}
+h1{ 
+    color: rgb(162, 7, 33);
 }
  img{
     width: 250px;
