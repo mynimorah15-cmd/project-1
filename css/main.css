@@ -18,3 +18,10 @@ h1{
     border: 20px solid rgb(162, 7, 33);
 
 }
+submit-button{
+padding: 8px;
+border-radius: 10px;
+background:rgb(229, 172, 197) ;
+color: black;
+
+}
