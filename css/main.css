@@ -7,7 +7,7 @@ body {
     font-size: 36px;
     font-family: GB Garamond, serif;
 
-}
+
 h1{ 
     color: rgb(162, 7, 33);
     font-weight: bold;
@@ -23,20 +23,27 @@ h1{
     padding: 8px;
 }
 
-h2{ 
-    padding: 8px;
-    border-radius: 10px;
-    background:rgb(229, 172, 197) ;
-    color: black;
+.menu {
+ display: none; /* Hide the menu by default */
 }
-
-{
-@media (max-width: 768px) { .menu {
+.hamburger {
+  display: none; /* Hide the hamburger button by default */
+}
+@media (max-width: 750px) { .menu {
     display: block; /* Show the menu on smaller screens */
   }
   .hamburger {
     display: block; /* Show the hamburger button on smaller screens */
-  }
+} }
+
+h2{ 
+    padding: 8px;
+    border-radius: 10px;
+    background:rgb(229, 172, 197) ;
+    color: black; 
+}
+}
+
 submit-button{
 padding: 8px;
 border-radius: 10px;
