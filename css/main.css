@@ -12,6 +12,12 @@ h1{
     color: rgb(162, 7, 33);
     font-weight: bold;
 }
+h2{ 
+    padding: 8px;
+    border-radius: 10px;
+    background:rgb(229, 172, 197) ;
+    color: black; 
+}
 img{
     flex-direction: center;
     width: 250px;
@@ -31,12 +37,6 @@ img{
   .hamburger {
     display: block; /* Show the hamburger button on smaller screens */
 } }
-h2{ 
-    padding: 8px;
-    border-radius: 10px;
-    background:rgb(229, 172, 197) ;
-    color: black; 
-}
 
 .container-box
 
