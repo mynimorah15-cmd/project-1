@@ -12,12 +12,30 @@ h1{
     color: rgb(162, 7, 33);
     font-weight: bold;
 }
+
+.container-box
+
  img{
+    flex-direction: center;
     width: 250px;
     margin: 20px;
     border: 20px solid rgb(162, 7, 33);
 
 }
+h2{ 
+    padding: 8px;
+    border-radius: 10px;
+    background:rgb(229, 172, 197) ;
+    color: black;
+}
+
+{
+@media (max-width: 768px) { .menu {
+    display: block; /* Show the menu on smaller screens */
+  }
+  .hamburger {
+    display: block; /* Show the hamburger button on smaller screens */
+  }
 submit-button{
 padding: 8px;
 border-radius: 10px;
