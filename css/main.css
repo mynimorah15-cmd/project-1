@@ -1,9 +1,9 @@
 /* Place CSS styles here */
 head{
-    background-color:rgb(229, 172, 197);
 }
 body {
-    font-family 'Times New Roman', Times, serif;
+    background-color:rgb(229, 172, 197);
+    font-family: 'Times New Roman', Times, serif;
     font-size: 36px;
     font-family: GB Garamond, serif;
 
@@ -62,7 +62,7 @@ img{
 }
 
 submit-button{
-padding: 8px;
+padding: 8vw;
 border-radius: 10px;
 background:rgb(229, 172, 197) ;
 color: black;
